@@ -1,0 +1,6 @@
+步骤1：新建一个web框架工程
+django-admin startproject mysite
+步骤2：修改工程，增加功能
+略
+步骤3：调试运行Django框架
+在mysite工程目录下，\>python manage.py runserver
