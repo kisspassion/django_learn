@@ -4,3 +4,25 @@ django-admin startproject mysite
 略
 步骤3：调试运行Django框架
 在mysite工程目录下，\>python manage.py runserver
+
+
+MTV模式
+M：model与数据组织相关的功能
+T：templates与表现相关的功能
+V：views针对请求选取数据的功能
+
+===========
+1.新建hello2app
+2.创建一个example.html作为返回页面，修改views.py
+3.在hello2app应用中，新增urls.py文件（本地路由文件）
+4.在全局路由文件中增加对本应用路由文件的引用
+5.设置模板路径，让Django框架找到模板所在目录
+
+
+**云端留言板
+1.新建工程
+2-1.新建应用
+2-2.增加模板，即显示界面的HTML/CSS/JS代码，配置路径
+2-3.设定URL路由，本地路由和全局路由
+2-4.编写交互代码
+3.运行工程
